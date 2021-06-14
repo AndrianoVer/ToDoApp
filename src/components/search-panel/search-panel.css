@@ -7,3 +7,7 @@
 .form-control {
   float: left;
 }
+
+.top-panel .search-input {
+  overflow: hidden;
+}

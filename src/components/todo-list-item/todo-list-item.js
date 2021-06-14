@@ -31,12 +31,12 @@ export default class TodoListItem extends Component {
                     <button type="button" 
                             className="btn btn-outline-success btn-sm float-right"
                             onClick={onToggleImportant}>
-                        <i class="fas fa-exclamation"></i>
+                        <i className="fas fa-exclamation"></i>
                     </button>
                     <button type="button" 
                             className="btn btn-outline-danger btn-sm float-right"
                             onClick={onDeleted}>
-                        <i class="fas fa-trash"></i>              
+                        <i className="fas fa-trash"></i>              
                     </button>
                 </div>
                 

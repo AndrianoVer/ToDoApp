@@ -1,6 +1,7 @@
 .todo-app {
   margin: 32px auto 0 auto;
   max-width: 400px;
+  padding: 0 10px;
 }
 
 .top-panel {
