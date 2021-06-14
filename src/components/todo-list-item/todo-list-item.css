@@ -1,0 +1,31 @@
+.todo-list-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.todo-list-item .reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.todo-list-item button {
+  width: 35px;
+  margin: 3px;
+}
+
+.todo-list-item-label {
+  margin-left: 20px;
+  line-height: 35px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.todo-list-item.done .todo-list-item-label {
+  text-decoration: line-through;
+}
+
+.todo-list-item.important .todo-list-item-label {
+  font-weight: bold;
+  cursor: steelblue;
+}

@@ -1,0 +1,9 @@
+.todo-app {
+  margin: 32px auto 0 auto;
+  max-width: 400px;
+}
+
+.top-panel {
+  flex-direction: row-reverse;
+  margin: 16px 0;
+}

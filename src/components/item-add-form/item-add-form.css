@@ -1,0 +1,16 @@
+.item-add-form {
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.item-add-form input {
+  margin-right: 3px;
+}
+
+.form-control {
+  flex-basis: 70%;
+}
+
+.btn-basis {
+  flex-basis: 30%;
+}

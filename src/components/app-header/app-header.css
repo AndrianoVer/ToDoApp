@@ -1,0 +1,22 @@
+.app-header {
+  align-items: center;
+}
+
+.app-header h1 {
+  flex-grow: 1;
+  color: #fff;
+}
+
+.app-header h2 {
+  font-size: 18px;
+  color: #fff;
+}
+
+.add-new {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.add-new h2 {
+  font-size: 24px;
+}
